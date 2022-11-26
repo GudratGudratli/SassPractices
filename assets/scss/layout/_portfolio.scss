@@ -1,0 +1,20 @@
+.portfolio{
+    background-color: #28293e;
+    height: 275px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+    h1{
+        font-size: 72px;
+        font-weight: 800;
+        color: #FFF;
+    }
+    p{
+        font-size: 16px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.507);
+    }
+}

@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+}
+nav .navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 55px;
+  background-color: #28293e;
+  border: 1px solid white;
+}
+nav .navbar .logo {
+  background-image: url(/assets/imgs/navbar/logo.svg);
+  width: 150px;
+  height: 48px;
+}
+nav .navbar .menu {
+  justify-content: space-between;
+  word-spacing: 75px;
+}
+nav .navbar .menu a {
+  color: #FFFFFF;
+  font-size: 16px;
+}
+nav .navbar .contact a {
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  padding: 10px 20px 10px 20px;
+  font-weight: 900;
+  color: #FFFFFF;
+}
+
+.portfolio {
+  background-color: #28293e;
+  height: 275px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.portfolio h1 {
+  font-size: 72px;
+  font-weight: 800;
+  color: #FFF;
+}
+.portfolio p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.507);
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #fdf0e9;
+}
+.items .tabs {
+  display: flex;
+  flex-direction: row;
+}
+.items .tabs a {
+  color: #391400;
+  padding: 50px;
+}
+.items .item-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 0;
+}
+.items .item-list .item {
+  list-style: none;
+  flex: 0 0 25%;
+  width: 50px;
+  height: 300px;
+  margin: 1em 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 25px;
+  display: flex;
+}
+.items .item-list .item .content {
+  justify-self: flex-start;
+  align-self: flex-end;
+  text-align: start;
+}
+.items .item-list .item .content button {
+  border-radius: 15px;
+  border: none;
+  padding: 7px 12px 7px 12px;
+  background-color: #FFF;
+  color: #391400;
+  font-size: 16px;
+  font-weight: 400;
+}
+.items .item-list .item .content h3 {
+  color: #FFF;
+  font-size: 40px;
+  font-weight: 800;
+}
+.items .item-list .item1 {
+  background-image: url(/assets/imgs/items/Bitmap1.svg);
+}
+.items .item-list .item2 {
+  background-image: url(/assets/imgs/items/Bitmap2.svg);
+}
+.items .item-list .item3 {
+  background-image: url(/assets/imgs/items/Bitmap3.svg);
+}
+.items .item-list .item4 {
+  background-image: url(/assets/imgs/items/Bitmap4.svg);
+}
+.items .item-list .item5 {
+  background-image: url(/assets/imgs/items/Bitmap5.svg);
+}
+.items .item-list .item6 {
+  background-image: url(/assets/imgs/items/Bitmap6.svg);
+}
+.items .item-list .item7 {
+  background-image: url(/assets/imgs/items/Bitmap7.svg);
+}
+.items .item-list .item8 {
+  background-image: url(/assets/imgs/items/Bitmap8.svg);
+}
+.items .item-list .item9 {
+  background-image: url(/assets/imgs/items/Bitmap9.svg);
+}
+.items .load-btn {
+  padding: 10px 30px;
+  background-color: #FFF;
+}
+.items .load-btn a {
+  font-size: 14px;
+  font-weight: 900;
+  color: #391400;
+}/*# sourceMappingURL=main.css.map */

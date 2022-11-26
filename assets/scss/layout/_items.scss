@@ -1,0 +1,91 @@
+.items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fdf0e9;
+    .tabs{
+        display: flex;
+        flex-direction: row;
+        a{
+            color: #391400;
+            padding:50px;
+        }
+    }
+    .item-list{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-left: 0;
+        .item{
+            list-style: none;
+            flex: 0 0 25%;
+            width: 50px;
+            height: 300px;
+            margin: 1em 20px;
+            border: 1px solid black;
+            border-radius: 10px;
+            padding: 25px;
+            display: flex;
+            .content{
+                justify-self: flex-start;
+                align-self: flex-end;
+                text-align: start;
+                button{
+                    border-radius: 15px;
+                    border: none;
+                    padding: 7px 12px 7px 12px;
+                    background-color: #FFF;
+                    color: #391400;
+                    font-size: 16px;
+                    font-weight: 400;
+                    // align-items: flex-start;
+                }
+                h3{
+                    color: #FFF;
+                    font-size: 40px;
+                    font-weight: 800;
+                }
+            }
+        }
+        .item1{
+            background-image: url(/assets/imgs/items/Bitmap1.svg);
+        }
+        .item2{
+            background-image: url(/assets/imgs/items/Bitmap2.svg);
+        }
+        .item3{
+            background-image: url(/assets/imgs/items/Bitmap3.svg);
+        }
+        .item4{
+            background-image: url(/assets/imgs/items/Bitmap4.svg);
+        }
+        .item5{
+            background-image: url(/assets/imgs/items/Bitmap5.svg);
+        }
+        .item6{
+            background-image: url(/assets/imgs/items/Bitmap6.svg);
+        }
+        .item7{
+            background-image: url(/assets/imgs/items/Bitmap7.svg);
+        }
+        .item8{
+            background-image: url(/assets/imgs/items/Bitmap8.svg);
+        }
+        .item9{
+            background-image: url(/assets/imgs/items/Bitmap9.svg);
+        }
+    }
+
+    .load-btn{
+        padding: 10px 30px;
+        background-color: #FFF;  
+        a{
+            font-size: 14px;
+            font-weight: 900;
+            color: #391400;
+        }
+    }
+}
