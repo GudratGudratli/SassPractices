@@ -188,11 +188,61 @@ nav .navbar .contact a {
   background-image: url(/assets/imgs/items/Bitmap9.svg);
 }
 .items .load-btn {
-  padding: 10px 30px;
-  background-color: #FFF;
+  padding: 50px;
 }
 .items .load-btn a {
+  padding: 10px 30px;
+  background-color: #FFF;
   font-size: 14px;
   font-weight: 900;
   color: #391400;
+}
+
+.contact-now {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  background-color: #fdf0e9;
+}
+.contact-now .rectangle {
+  background-color: #ef6d58;
+  height: 400px;
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  gap: 150px;
+  align-items: center;
+  padding: 100px;
+}
+.contact-now .rectangle .text-content {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  color: #FFF;
+}
+.contact-now .rectangle .text-content h2 {
+  font-size: 56px;
+  font-weight: 800;
+}
+.contact-now .rectangle .text-content p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  opacity: 64%;
+}
+.contact-now .rectangle .text-content a {
+  font-size: 14px;
+  font-weight: 900;
+  color: #391400;
+  background-color: #FFF;
+  padding: 10px 30px;
+}
+.contact-now .rectangle .img {
+  padding: 25px;
+}
+.contact-now .rectangle .img .image {
+  background-image: url(/assets/imgs/contact-now/pic.svg);
+  height: 430px;
+  width: 440px;
 }/*# sourceMappingURL=main.css.map */
