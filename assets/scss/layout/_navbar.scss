@@ -35,5 +35,30 @@ nav {
                 color: #FFFFFF;
             }
         }
+        .checkbtn{
+            font-size: 32px;
+            cursor: pointer;
+            display: none;
+
+        }
+        #check{
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 970px) {
+    nav {
+        .navbar {
+            .menu {
+                display: none;
+            }
+            .contact{
+                display: none;
+            }
+            .checkbtn{
+                display: block;
+            }      
+        }
     }
 }

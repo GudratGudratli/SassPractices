@@ -46,3 +46,20 @@
         }
     }
 }
+
+@media screen and (max-width: 970px) {
+    .contact-now{
+        .rectangle{
+            height: 800px;
+            width: 330px;
+            flex-direction: column;
+            gap: 50px;
+            .img{
+                .image{
+                    height: 420px;
+                    width: 430px;
+                }
+            }
+        }
+    }
+}

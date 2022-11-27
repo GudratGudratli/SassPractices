@@ -59,3 +59,12 @@
         }
     }
 }
+
+@media screen and (max-width: 970px) {
+    .agency {
+        .content {
+            flex-direction: column;
+            gap: 25px;
+        }
+    }
+}
