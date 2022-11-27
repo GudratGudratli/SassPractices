@@ -54,6 +54,11 @@ table {
   font-family: "Roboto", sans-serif;
 }
 
+hr {
+  width: 800px;
+  color: #F3D1BF;
+}
+
 nav {
   position: fixed;
   width: 100%;
@@ -202,7 +207,6 @@ nav .navbar .contact a {
   width: 100%;
   display: flex;
   justify-content: center;
-  padding: 50px;
   background-color: #fdf0e9;
 }
 .contact-now .rectangle {
@@ -238,11 +242,68 @@ nav .navbar .contact a {
   background-color: #FFF;
   padding: 10px 30px;
 }
-.contact-now .rectangle .img {
-  padding: 25px;
-}
 .contact-now .rectangle .img .image {
   background-image: url(/assets/imgs/contact-now/pic.svg);
   height: 430px;
   width: 440px;
+}
+
+.agency {
+  width: 100%;
+  height: 300px;
+  background-color: #fdf0e9;
+}
+.agency .content {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+  text-align: center;
+}
+.agency .content .agency-text h4 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #391400;
+}
+.agency .content .menu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.agency .content .menu h4 {
+  padding: 5px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #EF6D58;
+}
+.agency .content .menu a {
+  color: #391400;
+}
+.agency .content .service {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.agency .content .service h4 {
+  padding: 5px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #EF6D58;
+}
+.agency .content .service a {
+  color: #391400;
+}
+.agency .content .icons i {
+  color: #ef6d58;
+  font-size: 32px;
+}
+
+footer {
+  background-color: #fdf0e9;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+}
+footer p, footer a {
+  color: #391400;
 }/*# sourceMappingURL=main.css.map */

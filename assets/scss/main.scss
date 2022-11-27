@@ -1,9 +1,13 @@
 @import "./base/reset";
 @import "./base/typography";
 
+@import "./abstracts/hr";
+
 @import "./layout/navbar";
 @import "./layout/portfolio";
 
 @import "./layout/items";
 @import "./layout/contact-now";
 @import "./layout/agency";
+
+@import "./layout/footer";

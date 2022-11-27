@@ -3,7 +3,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: 50px;
+    
     background-color: #fdf0e9;
     .rectangle{
         background-color: #ef6d58;
@@ -38,11 +38,10 @@
             }
         }
         .img{
-            padding: 25px;
             .image{
                 background-image: url(/assets/imgs/contact-now/pic.svg);
-            height: 430px;
-            width: 440px;
+                height: 430px;
+                width: 440px;
             }
         }
     }
