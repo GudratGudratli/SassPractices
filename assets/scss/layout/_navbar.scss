@@ -35,14 +35,22 @@ nav {
                 color: #FFFFFF;
             }
         }
-        .checkbtn{
-            font-size: 32px;
-            cursor: pointer;
-            display: none;
 
-        }
-        #check{
-            display: none;
+        .dropdown {
+            color: #FFF;
+
+            .checkbtn {
+                font-size: 32px;
+                cursor: pointer;
+                border: 1px solid #FFF;
+                border-radius: 5px;
+                padding: 5px 10px 5px 10px;
+                display: none;
+            }
+
+            #check {
+                display: none;
+            }
         }
     }
 }
@@ -50,15 +58,19 @@ nav {
 @media screen and (max-width: 970px) {
     nav {
         .navbar {
+            .dropdown {
+                .checkbtn {
+                    display: block;
+                }
+            }
+
             .menu {
                 display: none;
             }
-            .contact{
+
+            .contact {
                 display: none;
             }
-            .checkbtn{
-                display: block;
-            }      
         }
     }
 }

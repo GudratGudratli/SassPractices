@@ -92,24 +92,30 @@ nav .navbar .contact a {
   font-weight: 900;
   color: #FFFFFF;
 }
-nav .navbar .checkbtn {
+nav .navbar .dropdown {
+  color: #FFF;
+}
+nav .navbar .dropdown .checkbtn {
   font-size: 32px;
   cursor: pointer;
+  border: 1px solid #FFF;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
   display: none;
 }
-nav .navbar #check {
+nav .navbar .dropdown #check {
   display: none;
 }
 
 @media screen and (max-width: 970px) {
+  nav .navbar .dropdown .checkbtn {
+    display: block;
+  }
   nav .navbar .menu {
     display: none;
   }
   nav .navbar .contact {
     display: none;
-  }
-  nav .navbar .checkbtn {
-    display: block;
   }
 }
 .portfolio {
